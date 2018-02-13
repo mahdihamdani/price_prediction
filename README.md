@@ -29,5 +29,7 @@ python predict_price.py --product_name "Pizza Margherita" --product_description 
 - Geographical information (lattitude/longitude) is used as well. A clustering method for geographical coordinates based on the haversine distance is used before the construction of the final categorical features 
 - Different regression models were tested as well --> random forests regression is kept in the end
 
+A jupyter-notebook `price_prediction.ipynb` is provided to show the different steps
+
 ## TODO
 - Feature selection, simpler models with same performance?
