@@ -30,9 +30,10 @@ python predict_price.py --product_name "Pizza Margherita" --product_description 
 - Different regression models were tested as well --> random forests regression is kept in the end
 - Evaluation is done with Mean Square Error (MSE) and 'r^2' score
 Results on test data are:
+   ```
    Test MSE= 24.5350228002
    Test R2 score= 0.714733053975
-
+   ```
 A jupyter-notebook `price_prediction.ipynb` is provided to show the different steps
 
 ## TODO
