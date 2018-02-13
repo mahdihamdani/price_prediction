@@ -28,8 +28,11 @@ python predict_price.py --product_name "Pizza Margherita" --product_description 
 - Diffeent categorical features were tested on the columns
 - Geographical information (lattitude/longitude) is used as well. A clustering method for geographical coordinates based on the haversine distance is used before the construction of the final categorical features 
 - Different regression models were tested as well --> random forests regression is kept in the end
-- Evaluation is done with Mean Square Error (MSE) and 'r^2' score
-
+- Evaluation is done with Mean Square Error (MSE) and R2 score, results on test data are:
+   ```
+   Test MSE= 24.5350228002
+   Test R2 score= 0.714733053975
+   ```
 A jupyter-notebook `price_prediction.ipynb` is provided to show the different steps
 
 ## TODO
