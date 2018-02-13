@@ -31,7 +31,7 @@ python predict_price.py --product_name "Pizza Margherita" --product_description 
 - Evaluation is done with Mean Square Error (MSE) and 'r^2' score
 Results on test data are:
    Test MSE= 24.5350228002
-T   est R2 score= 0.714733053975
+   Test R2 score= 0.714733053975
 
 A jupyter-notebook `price_prediction.ipynb` is provided to show the different steps
 
